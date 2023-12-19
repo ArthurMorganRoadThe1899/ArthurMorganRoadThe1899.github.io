@@ -1,0 +1,30 @@
+body{
+
+}
+
+.b{
+    background-image: url(images/bosque.jpg);
+    color: white;
+    border: black solid 2px;
+}
+
+#title1{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #721515 ;
+    text-align: center;
+    border: #721515 1px solid;
+    color: rgb(192, 181, 21);
+    position: fixed;
+    bottom: 0;
+    left: -2%;
+    width: 2000px;
+    font-weight: bolder;
+}
