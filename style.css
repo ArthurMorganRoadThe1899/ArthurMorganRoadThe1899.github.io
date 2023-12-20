@@ -1,5 +1,6 @@
 body{
-
+    color: white;
+    background-image: url(images/poi.png);
 }
 
 .b{
@@ -15,6 +16,20 @@ body{
 
 .bold{
     font-weight: bold;
+}
+
+aside{
+    width: 30%;
+    float: right;
+    font-weight: bolder;
+}
+
+.Twilight{
+    background-color: #aa6408;
+    color: #ffe601;
+    border: #aa9a08 solid 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 footer{
