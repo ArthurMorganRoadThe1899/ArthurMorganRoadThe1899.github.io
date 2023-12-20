@@ -3,6 +3,12 @@ body{
     background-image: url(images/poi.png);
 }
 
+#titleO{
+    background-color: rgb(14, 40, 122);
+    color: aqua;
+    border: aqua solid 3px;
+}
+
 .b{
     background-image: url(images/bosque.jpg);
     color: white;
