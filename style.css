@@ -7,7 +7,25 @@ body{
 }
 
 #ban{
+    background-image: url(images/mainPageUtiles/backTitle.jpg);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-position: center top -140px;
+    border: 1px solid black;
+    width: 670px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 .menu-lat{
@@ -120,4 +138,25 @@ footer a:visited{
 
 .menu-lat:hover ul li{
     justify-content: flex-start;
+}
+
+.boxText{
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    border: solid 1px white;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
