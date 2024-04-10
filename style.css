@@ -10,3 +10,43 @@ body{
 
 }
 
+.menu-lat{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    opacity:.7;
+    color: white;
+    text-align: center;
+    border: 1px black solid;
+  }
+  
+  footer a:link{
+    color:white
+  }
+  
+  footer a:visited{
+    color: aliceblue;
+  }
