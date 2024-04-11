@@ -90,24 +90,46 @@ ul li{
     cursor: pointer;
 }
 
+video{
+    border-radius: 8px;
+    border: solid 1px white;
+}
+
+.boxText a:link{
+    color: white;
+}
+
+.boxText a:visited{
+    color: white;
+}
+
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(71, 71, 71);
+    height: 3%;
+    backdrop-filter: blur(1px);
+    background: rgba(54, 54, 54, 0.719);
     opacity:.7;
-    color: white;
+    color: rgb(217, 255, 0);
     text-align: center;
     border: 1px black solid;
+    position: fixed;
+    transition: width 0.5s;
 }
-  
+
+footer:hover{
+    height: 10%;
+}
+
+
 footer a:link{
-    color:white
+    color:rgb(204, 177, 24);
 }
   
 footer a:visited{
-    color: aliceblue;
+    color: rgb(204, 177, 24);
 }
 
 .menu-lat:hover{
