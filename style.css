@@ -1,3 +1,7 @@
+html{
+    min-height: 100%;
+}
+
 body{
     background-image: url(images/mainPageUtiles/background.jpg);
     background-repeat: no-repeat;
@@ -184,7 +188,7 @@ footer a:visited{
   }
 }
 
-@media only screen and (max-width: 375px) {
+/@media only screen and (max-width: 375px) {
     body {
       color: red;
     }
