@@ -197,13 +197,20 @@ footer a:visited{
         width: 46%;
     }
 
+    ul li img{
+        width: 50px;
+        margin-right: 10px;
+    }
+
     .menu-lat{
         font-size: 100%;
     }
 
     .menu-lat:hover{
         font-size: 100%;
+        width: 270px;
     }
+    
   }
 
 @media only screen and (max-width: 375px) {
