@@ -192,6 +192,18 @@ footer a:visited{
     body{
         font-size: 150%;
     }
+
+    video{
+        width: 46%;
+    }
+
+    .menu-lat{
+        font-size: 100%;
+    }
+
+    .menu-lat:hover{
+        font-size: 100%;
+    }
   }
 
 @media only screen and (max-width: 375px) {
