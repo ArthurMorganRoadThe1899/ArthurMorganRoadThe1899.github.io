@@ -14,7 +14,7 @@ body{
 #ban{
     background-image: url(images/mainPageUtiles/backTitle.jpg);
     background-repeat: no-repeat;
-    background-attachment: cover;
+    background-size: cover;
     margin: 0 auto;
     border-radius: 10px;
     background-position: center top -140px;
