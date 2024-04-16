@@ -200,7 +200,7 @@ footer a:visited{
     border-radius: 8px;
     font-size: 10px;
     padding: 5px;
-    position: absolute;
+    position: fixed;
     top: 730px;
     left: 150vh;
     width: auto;
