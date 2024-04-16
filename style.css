@@ -187,7 +187,7 @@ footer a:visited{
     width: 30vh;
     bottom: 0;
     left: 160vh;
-    position: absolute;
+    position: fixed;
 }
 
 .advice .messageContent .text{
@@ -201,7 +201,7 @@ footer a:visited{
     font-size: 10px;
     padding: 5px;
     position: fixed;
-    top: 730px;
+    top: 75vh;
     left: 150vh;
     width: auto;
 }
