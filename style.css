@@ -192,6 +192,14 @@ footer a:visited{
 
 .advice .messageContent .text{
     font-size: 0px;
+    transition: 1s;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    position: fixed;
+    top: 75vh;
+    left: 150vh;
+    
 }
 
 .advice .messageContent:hover .text{
@@ -204,6 +212,8 @@ footer a:visited{
     top: 75vh;
     left: 150vh;
     width: auto;
+    overflow: auto;
+    
 }
 
 .advice .messageContent .text a:link{
