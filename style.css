@@ -188,6 +188,7 @@ footer a:visited{
     bottom: 0;
     left: 160vh;
     position: fixed;
+    cursor: pointer;
 }
 
 .advice .messageContent .text{
