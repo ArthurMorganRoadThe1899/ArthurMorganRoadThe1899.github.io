@@ -1,2 +1,3 @@
-const a = new Audio();
-a.src = "yijah.mp3";
+function playAudio(url) {
+    new Audio(url).play();
+  }
