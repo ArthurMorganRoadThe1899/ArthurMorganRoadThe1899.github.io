@@ -11,6 +11,7 @@ body{
     color: white;
 }
 
+/* ! Principal culpable de que en movil se rompa */
 #ban{
     background-image: url(images/mainPageUtiles/backTitle.jpg);
     background-repeat: no-repeat;
@@ -24,7 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .glow {
     font-size: 50px;
@@ -80,6 +81,16 @@ ul li img{
 ul li p{
     white-space: nowrap;
     display: none;
+}
+
+ul li p a:link{
+    color: white;
+    text-decoration-line: none;
+}
+
+ul li p a:visited{
+    color: white;
+    text-decoration-line: none;
 }
 
 ul{

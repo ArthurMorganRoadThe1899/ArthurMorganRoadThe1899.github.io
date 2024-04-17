@@ -1,0 +1,115 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background-image: url(../images/mainPageUtiles/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    text-align: center;
+    color: white;
+}
+
+.menu-lat{
+    width: 110px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    transition: width 0.5s;
+}
+
+.menu-lat:hover{
+    width: 250px;
+}
+  
+.menu-lat:hover .usuario div{
+    display: block;
+}
+
+.menu-lat:hover .usuario{
+    width: 92%;
+    background: rgba(187, 187, 187, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.menu-lat:hover .user-img{
+    margin: 0;
+}
+
+.menu-lat:hover ul li p{
+    display: block;
+}
+
+.menu-lat:hover ul li img{
+    margin-right: 10px;
+}
+
+.menu-lat:hover ul li{
+    justify-content: flex-start;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.usuario div{
+    display: none;
+}
+
+.usuario h2{
+    font-size: 15px;
+}
+
+.user-img{
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+ul li img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+ul li p{
+    white-space: nowrap;
+    display: none;
+}
+
+ul li p a:link{
+    color: white;
+    text-decoration-line: none;
+}
+
+ul li p a:visited{
+    color: white;
+    text-decoration-line: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
