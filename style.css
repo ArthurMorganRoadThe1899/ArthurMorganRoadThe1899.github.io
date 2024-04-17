@@ -108,34 +108,6 @@ video{
     color: white;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3%;
-    background: rgba(54, 54, 54, 0.719);
-    backdrop-filter: blur(1px);
-    opacity:.7;
-    color: rgb(217, 255, 0);
-    text-align: center;
-    border: 1px black solid;
-    position: fixed;
-    transition: height 0.5s;
-}
-
-footer:hover{
-    height: 10%;
-}
-
-
-footer a:link{
-    color:rgb(204, 177, 24);
-}
-  
-footer a:visited{
-    color: rgb(204, 177, 24);
-}
 
 .menu-lat:hover{
     width: 250px;
@@ -175,7 +147,6 @@ footer a:visited{
     width: fit-content;
     height: fit-content;
     margin: auto;
-    
 }
 
 .advice{
@@ -186,7 +157,7 @@ footer a:visited{
 .advice .messageContent img{
     width: 30vh;
     bottom: 0;
-    left: 160vh;
+    left: 85%;
     position: fixed;
     cursor: pointer;
 }
@@ -198,8 +169,8 @@ footer a:visited{
     right: 0;
     padding: 5px;
     position: fixed;
-    top: 75vh;
-    left: 150vh;
+    top: 64%;
+    left: 84%;
     
 }
 
@@ -210,9 +181,9 @@ footer a:visited{
     font-size: 10px;
     padding: 5px;
     position: fixed;
-    top: 75vh;
-    left: 150vh;
-    width: auto;
+    top: 64%;
+    left: 84%;
+    width: 14%;
     overflow: auto;
     
 }
@@ -224,34 +195,6 @@ footer a:visited{
 .advice .messageContent .text a:visited{
     color: rgb(12, 193, 238);
 }
-
-/*
-.advice{
-    width: 110px;
-    height: -1vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 30px 15px;
-    background: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(5px);
-    transition: width 0.5s;
-    overflow: auto;
-}
-
-.CM{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 20vh;
-    background-image: none;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    left: -10vh;
-    bottom: 40px;
-}
-*/
 
 @-webkit-keyframes glow {
   from {
