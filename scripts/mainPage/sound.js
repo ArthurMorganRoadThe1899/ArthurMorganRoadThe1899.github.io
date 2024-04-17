@@ -1,2 +1,2 @@
-const audio = new Audio();
-audio.src = "yijah.mp3";
+const a = new Audio();
+a.src = "yijah.mp3";
