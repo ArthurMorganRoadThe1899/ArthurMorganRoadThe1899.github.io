@@ -136,6 +136,59 @@ video{
     color: white;
 }
 
+.advice{
+    display: inline-flex;
+}
+
+
+.advice .messageContent img{
+    width: 30vh;
+    bottom: 0;
+    left: 85%;
+    position: fixed;
+    cursor: pointer;
+}
+
+.advice .messageContent .text{
+    font-size: 0px;
+    transition: 1s;
+    padding: 5px;
+    position: fixed;
+    top: 20rem;
+    left: 69rem;
+    font-family:yak;
+    opacity: 0;
+    
+}
+
+.advice .messageContent:hover .text{
+    background-color: rgb(0, 0, 0, 0.2);
+    border: white solid 1px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px;
+    position: fixed;
+    top: 20rem;
+    left: 69rem;
+    width: 14rem;
+    opacity: 1;
+    overflow: auto;   
+}
+
+.advice .messageContent .text w{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+.advice .messageContent .text a:link{
+    color: rgb(12, 193, 238);
+}
+
+.advice .messageContent .text a:visited{
+    color: rgb(12, 193, 238);
+}
+
 @media only screen and (max-width: 1920px) {
     body{
         font-size: 150%;
@@ -158,6 +211,32 @@ video{
         font-size: 100%;
         width: 270px;
     }
+
+    .advice .messageContent .text{
+        font-size: 0px;
+        transition: 1s;
+        padding: 5px;
+        position: fixed;
+        top: 37rem;
+        left: 100rem;
+        font-family:yak;
+        opacity: 0;
+        
+    }
+    
+    .advice .messageContent:hover .text{
+        background-color: rgb(0, 0, 0, 0.2);
+        border: white solid 1px;
+        border-radius: 8px;
+        font-size: 14px;
+        padding: 5px;
+        position: fixed;
+        top: 37rem;
+        left: 100rem;
+        width: 14rem;
+        opacity: 1;
+        overflow: auto;   
+    }
   }
 
 @media only screen and (max-width: 1366px) {
@@ -168,5 +247,31 @@ video{
     .menu-lat:hover{
         font-size: 80%;
         width: 270px;
+    }
+
+    .advice .messageContent .text{
+        font-size: 0px;
+        transition: 1s;
+        padding: 5px;
+        position: fixed;
+        top: 20rem;
+        left: 69rem;
+        font-family:yak;
+        opacity: 0;
+        
+    }
+    
+    .advice .messageContent:hover .text{
+        background-color: rgb(0, 0, 0, 0.2);
+        border: white solid 1px;
+        border-radius: 8px;
+        font-size: 14px;
+        padding: 5px;
+        position: fixed;
+        top: 20rem;
+        left: 69rem;
+        width: 14rem;
+        opacity: 1;
+        overflow: auto;   
     }
 }
