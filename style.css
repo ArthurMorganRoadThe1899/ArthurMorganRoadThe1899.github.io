@@ -247,9 +247,21 @@ video{
     }
   }
 
+@media only screen and (max-width: 1366px) {
+    .menu-lat{
+        font-size: 60%;
+    }
+
+    .menu-lat:hover{
+        font-size: 80%;
+        width: 270px;
+    }
+}
+
+
 @media only screen and (max-width: 375px) {
     
-  }
+}
 
 @font-face {
   font-family: yak;
