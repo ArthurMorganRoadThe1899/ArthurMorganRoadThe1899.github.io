@@ -51,7 +51,7 @@ body{
 
 .menu-lat:hover ul li{
     justify-content: flex-start;
-}
+}   
 
 .usuario{
     display: flex;
@@ -79,7 +79,6 @@ body{
     border-radius: 50%;
     margin: auto;
 }
-
 
 ul li img{
     width: 30px;
@@ -112,4 +111,62 @@ ul li{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+video{
+    border-radius: 8px;
+    border: solid 1px white;
+}
+
+.boxText{
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    border: solid 1px white;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.boxText a:link{
+    color: white;
+}
+
+.boxText a:visited{
+    color: white;
+}
+
+@media only screen and (max-width: 1920px) {
+    body{
+        font-size: 150%;
+    }
+
+    video{
+        width: 46%;
+    }
+
+    ul li img{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .menu-lat{
+        font-size: 100%;
+    }
+
+    .menu-lat:hover{
+        font-size: 100%;
+        width: 270px;
+    }
+  }
+
+@media only screen and (max-width: 1366px) {
+    .menu-lat{
+        font-size: 60%;
+    }
+
+    .menu-lat:hover{
+        font-size: 80%;
+        width: 270px;
+    }
 }
