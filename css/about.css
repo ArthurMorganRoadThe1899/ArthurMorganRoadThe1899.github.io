@@ -275,3 +275,8 @@ video{
         overflow: auto;   
     }
 }
+
+@font-face {
+    font-family: yak;
+    src: url(../firasans.otf);
+  }
