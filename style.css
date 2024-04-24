@@ -25,7 +25,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+    font-family: yakTitle;
+}
+
+.subTitle{
+    font-family: yakTitle;  
+}
 
 .glow {
     font-size: 50px;
@@ -158,6 +163,7 @@ video{
     width: fit-content;
     height: fit-content;
     margin: auto;
+    font-family: yakTitle;
 }
 
 .advice{
@@ -319,3 +325,8 @@ video{
   font-family: yak;
   src: url(firasans.otf);
 }
+
+@font-face {
+    font-family: yakTitle;
+    src: url(edo.ttf);
+  }

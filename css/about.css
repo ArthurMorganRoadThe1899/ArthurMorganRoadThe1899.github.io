@@ -11,6 +11,27 @@ body{
     color: white;
 }
 
+/* ! Principal culpable de que en movil se rompa */
+#ban{
+    background-image: url(../images/aboutMePage/backTitle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-position: center top -140px;
+    border: 1px solid black;
+    width: 570px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: yakTitle;
+}
+
+.subTitle{
+    font-family: yakTitle;
+}
+
 .menu-lat{
     width: 110px;
     height: 100%;
@@ -126,6 +147,7 @@ video{
     width: fit-content;
     height: fit-content;
     margin: auto;
+    font-family: yakTitle;
 }
 
 .boxText a:link{
@@ -279,4 +301,9 @@ video{
 @font-face {
     font-family: yak;
     src: url(../firasans.otf);
+  }
+
+  @font-face {
+    font-family: yakTitle;
+    src: url(../edo.ttf);
   }
