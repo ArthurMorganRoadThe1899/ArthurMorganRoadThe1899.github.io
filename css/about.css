@@ -245,6 +245,19 @@ video{
     }
   }
 
+@media only screen and (max-width: 1536px) {
+    .advice .messageContent .text{
+        top: 25rem;
+        left: 79rem;
+        
+    }
+    
+    .advice .messageContent:hover .text{
+        top: 25rem;
+        left: 79rem;
+    }
+}
+
 @media only screen and (max-width: 1366px) {
     .menu-lat{
         font-size: 60%;
@@ -264,19 +277,6 @@ video{
     .advice .messageContent:hover .text{
         top: 20rem;
         left: 69rem;
-    }
-}
-
-@media only screen and (max-width: 1536px) {
-    .advice .messageContent .text{
-        top: 25rem;
-        left: 79rem;
-        
-    }
-    
-    .advice .messageContent:hover .text{
-        top: 25rem;
-        left: 79rem;
     }
 }
 
