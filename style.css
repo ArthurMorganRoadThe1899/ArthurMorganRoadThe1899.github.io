@@ -184,7 +184,7 @@ video{
     transition: 1s;
     padding: 5px;
     position: fixed;
-    top: 20;
+    top: 20rem;
     left: 69rem;
     font-family:yak;
     opacity: 0;
